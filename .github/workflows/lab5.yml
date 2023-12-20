@@ -1,11 +1,13 @@
-name: GitHub Actions Demo
+name: github actions 
 on: push
-jobs:
-  Explore-GitHub-Actions:
-    runs-on: ubuntu-latest
+jobs: 
+  exploring:
+    runs-on : ubuntu-latest
     steps:
-      - name: Print the triggering event
-        run: echo "The job was triggered by ${{ github.event_name }}."
+      - name: step name
+        run : echo "hello" 
+      
+
         
         
         
